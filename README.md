@@ -2,6 +2,8 @@
 
 TODO: Write a gem description
 
+[![Build Status](https://travis-ci.org/anthonator/errawr-http.png?branch=master)](https://travis-ci.org/anthonator/errawr-http) [![Coverage Status](https://coveralls.io/repos/anthonator/errawr-http/badge.png)](https://coveralls.io/r/anthonator/errawr-http)
+
 ## Installation
 
 Add this line to your application's Gemfile:
