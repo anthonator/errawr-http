@@ -1,0 +1,110 @@
+en:
+  errawr:
+    bad_request:
+      message: Bad Request
+      http_status: 400
+    unauthorized:
+      message: Unauthorized
+      http_status: 401
+    payment_required:
+      message: Payment Required
+      http_status: 402
+    forbidden:
+      message: Forbidden
+      http_status: 403
+    not_found:
+      message: Not Found
+      http_status: 404
+    method_not_allowed:
+      message: Method Not Allowed
+      http_status: 405
+    not_acceptable:
+      message: Not Acceptable
+      http_status: 406
+    proxy_authentication_required:
+      message: Proxy Authentication Required
+      http_status: 407
+    request_timeout:
+      message: Request Timeout
+      http_status: 408
+    conflict:
+      message: Conflict
+      http_status: 409
+    gone:
+      message: Gone
+      http_status: 410
+    length_required:
+      message: Length Required
+      http_status: 411
+    precondition_failed:
+      message: Precondition Failed
+      http_status: 412
+    request_entity_too_large:
+      message: Request Entity Too Large
+      http_status: 413
+    request_uri_too_long:
+      message: Request-URI Too Large
+      http_status: 414
+    unsupported_media_type:
+      message: Unsupported Media Type
+      http_status: 415
+    requested_range_not_satisfiable:
+      message: Requested Range Not Satisfiable
+      http_status: 416
+    expectation_failed:
+      message: Expectation Failed
+      http_status: 417
+    unprocessable_entity:
+      message: Unprocessable Entity
+      http_status: 422
+    locked:
+      message: Locked
+      http_status: 423
+    failed_dependency:
+      message: Failed Dependency
+      http_status: 424
+    upgrade_required:
+      message: Upgrade Required
+      http_status: 426
+    precondition_required:
+      message: Precondition Required
+      http_status: 428
+    too_many_requests:
+      message: Too Many Requests
+      http_status: 429
+    request_header_fields_too_large:
+      message: Request Header Fields Too Large
+      http_status: 431
+    internal_server_error:
+      message: Internal Server Error
+      http_status: 500
+    not_implemented:
+      message: Not Implemented
+      http_status: 501
+    bad_gateway:
+      message: Bad Gateway
+      http_status: 502
+    service_unavailable:
+      message: Service Unavailable
+      http_status: 503
+    gateway_timeout:
+      message: Gateway Timeout
+      http_status: 504
+    http_version_not_supported:
+      message: HTTP Version Not Supported
+      http_status: 505
+    variant_also_negotiates:
+      message: Variant Also Negotiates
+      http_status: 506
+    insufficient_storage:
+      message: Insufficient Storage
+      http_status: 507
+    loop_detected:
+      message: Loop Detected
+      http_status: 508
+    not_extended:
+      message: Not Extended
+      http_status: 510
+    network_authentication_required:
+      message: Network Authentication Required
+      http_status: 511
