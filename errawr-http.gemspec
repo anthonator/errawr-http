@@ -5,7 +5,7 @@ require 'errawr/http/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'errawr-http'
-  spec.version       = Errawr::Http::VERSION
+  spec.version       = Errawr::HTTP::VERSION
   spec.authors       = ['Anthony Smith']
   spec.email         = ['anthony@sticksnleaves.com']
   spec.description   = %q{TODO: Write a gem description}
