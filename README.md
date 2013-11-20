@@ -64,6 +64,7 @@ end
 ### Supported 5xx Status Codes
 
 | Message                          | HTTP Status Code | Symbol                           |
+| -------------------------------- | ---------------- | -------------------------------- |
 | Internal Server Error            | 500              | :internal_server_error           |
 | Not Implemented                  | 501              | :not_implemented                 |
 | Bad Gateway                      | 502              | :bad_gateway                     |
