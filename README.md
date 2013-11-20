@@ -34,6 +34,7 @@ end
 ### Supported 4xx Status Codes
 
 | Message                          | HTTP Status Code | Symbol                           |
+| -------------------------------- | ---------------- | -------------------------------- |
 | Bad Request                      | 400              | :bad_request                     |
 | Unauthorized                     | 401              | :unauthorized                    |
 | Payment Required                 | 402              | :payment_required                |
