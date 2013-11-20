@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Errawr::HTTP::VERSION
   spec.authors       = ['Anthony Smith']
   spec.email         = ['anthony@sticksnleaves.com']
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ''
+  spec.description   = %q{Raise 4xx and 5xx HTTP status code errors using Errawr}
+  spec.summary       = %q{Predefined 4xx and 5xx HTTP status codes in Errawr}
+  spec.homepage      = 'http://www.github.com/anthonator/errawr-http'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
