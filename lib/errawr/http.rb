@@ -4,7 +4,7 @@ require 'errawr/http/version'
 
 module Errawr
   module HTTP
-    I18n.load_path += Dir.glob('lib/errawr/http/locale/*.{rb,yml}')
+    I18n.load_path << "#{File.dirname(__FILE__)}/http/locale/en.yml"
     I18n.reload!
     
     ERRORS_4XX = [
