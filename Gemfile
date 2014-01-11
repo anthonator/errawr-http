@@ -6,6 +6,7 @@ gemspec
 gem 'coveralls', require: false
 
 platforms :rbx do
+  gem 'json'
   gem 'psych'
   gem 'racc'
   gem 'rubinius-coverage'
