@@ -28,7 +28,7 @@ describe Errawr::HTTP do
     [429, :too_many_requests],
     [431, :request_header_fields_too_large]
   ]
-  
+
   ERRORS_5XX = [
     [500, :internal_server_error],
     [501, :not_implemented],
@@ -42,23 +42,23 @@ describe Errawr::HTTP do
     [510, :not_extended],
     [511, :network_authentication_required]
   ]
-  
+
   ERRORS_4XX.each do |error|
     it "should define 4XX error #{error[0]}" do
       begin
         Errawr.error!(error[1])
       rescue => e
-        e.context[:http_status].should == error[0]
+        expect(e.context[:http_status]).to eq(error[0])
       end
     end
   end
-  
+
   ERRORS_5XX.each do |error|
     it "should define 5XX error #{error[0]}" do
       begin
         Errawr.error!(error[1])
       rescue => e
-        e.context[:http_status].should == error[0]
+        expect(e.context[:http_status]).to eq(error[0])
       end
     end
   end
